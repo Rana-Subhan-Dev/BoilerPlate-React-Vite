@@ -16,11 +16,7 @@ export const Home = () => {
   return (
     <div className="text-center">
       <StyledDiv>
-        <p>Welcome home      
-
-
-          
-        </p>
+        <p>Welcome home</p>
       </StyledDiv>
     </div>
   );
