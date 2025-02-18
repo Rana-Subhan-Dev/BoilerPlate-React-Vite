@@ -18,10 +18,11 @@ export const GlobalStyles = createGlobalStyle`
     transition: all 0.50s linear;
   }
   `;
+//`https://media.istockphoto.com/id/481981792/photo/empty-beer-bottle.jpg?s=612x612&w=0&k=20&c=tJykifFBqh6V9xexlwLgeuGnxjlQ0dAw6jjzHmbQG5Y=`
 
 function App() {
   const { themeConfig } = useThemeChooser();
-  return (
+  return (<>
     <ThemeProvider theme={themeConfig}>
       <GlobalStyles />
       <Header />
@@ -31,8 +32,8 @@ function App() {
         </Routes>
       </Content>
       <Footer />
-    </ThemeProvider>
-  );
+     </ThemeProvider>
+  </>);
 }
 
 export default App;

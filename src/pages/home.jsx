@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import ImageOverlay from './imageOverLay';
 
 const StyledDiv = styled.div`
   display: flex;
